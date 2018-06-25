@@ -1,3 +1,8 @@
+**This example uses AllenNLP 0.5.1, and may not work on older or newer versions (including AllenNLP's master branch)**
+
+For examples using prior versions of AllenNLP, see [the releases](https://github.com/allenai/allennlp-as-a-library-example/releases)
+and tags.
+
 A simple example for how to build your own model using AllenNLP as a dependency.  An explanation
 of all of the code in this repository is given in the [part 1](https://github.com/allenai/allennlp/blob/master/tutorials/getting_started/using_as_a_library_pt1.md) and [part 2](https://github.com/allenai/allennlp/blob/master/tutorials/getting_started/using_as_a_library_pt2.md) of the AllenNLP
 tutorial.
