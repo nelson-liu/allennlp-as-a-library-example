@@ -10,3 +10,7 @@ class AcademicPaperClassifierTest(ModelTestCase):
 
     def test_model_can_train_save_and_load(self):
         self.ensure_model_can_train_save_and_load(self.param_file)
+
+    def test_model_can_train_save_and_load_batch_size_one(self):
+        self.ensure_model_can_train_save_and_load(
+            'tests/fixtures/academic_paper_classifier_batch_size_one.json')
